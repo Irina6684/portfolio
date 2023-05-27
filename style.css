@@ -1,0 +1,455 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: #fff;
+   font-size: 16px;
+}
+body{
+    background: #0F1624;
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1660px;
+    margin: 0 auto;
+}
+.header_portfolio {
+    margin: 46px 0;
+ }
+ .header_portfolio_body{
+    display: flex;
+    justify-content: space-between;
+ }
+ .header_portfolio_logo{
+    display: flex;
+    align-items: center;
+    margin: 12px;
+ }
+.logo {
+    margin-right: 12px;
+    display: flex;
+ }
+ .header_portfolio_logo p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+ }
+.menu a {
+    margin: 0 49px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    text-decoration: none;
+ }
+.icon a {
+    margin:0 15px;
+    Width: 32px;
+    Height:32px;
+ }
+ .portfolio { 
+   margin-top: 145px;
+ }
+ .portfolio_body { 
+   display: flex;
+   justify-content: space-between;
+ }
+ .portfolio_title { 
+   font-style: normal;
+   font-weight: 600;
+   font-size: 96px;
+   line-height: 144px;
+   margin-left: 60px;
+   margin-bottom: 23px;
+ }
+ .portfolio_subtitle { 
+   font-style: normal;
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 72px;
+   color: #BCBCBC;
+   margin-left: 122px;
+   margin-bottom: 123px;
+ }
+ .portfolio_btn { 
+   width: 280px;
+   height: 80px;
+   background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+   border-radius: 83px;
+   padding: 19px 63px;
+   margin-left: 169px;
+ }
+ .portfolio_link { 
+   font-style: normal;
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 42px;
+ }
+ .portfolio_img {
+   position: relative;
+   top: 0;
+   right: 0;
+     height: 758px;
+ }
+ .portfolio_img img{
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 758px;
+   height: 758px;
+   animation-name: RotateSquare;
+   animation-duration: 40s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+ }
+ @keyframes RotateSquare{
+   from{
+      transform: rotate(0);
+
+
+   }
+   to{
+transform: rotate(360deg);
+   }
+ }
+ .projects {
+   margin-top: 145px;
+  }
+.project_title_top { 
+   font-style: normal;
+   font-weight: 600;
+   font-size: 64px;
+   line-height: 96px;
+   margin-left: 60px;
+   margin-bottom: 90px;
+}
+.projects_body { 
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 220px;
+   row-gap: 97px;
+   justify-content: center;
+}
+.projects_item { 
+   flex: 50%;
+   max-width: 550px;
+   box-shadow: 0px 0px 12px #FFFFFF;
+   border-radius: 50px 0px;
+   padding: 25px;
+}
+.project_title{
+   font-style: normal;
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 88.5%;
+   margin-top: 25px;
+   margin-bottom: 54px;
+   text-align: center;
+   position: relative;
+}
+.project_title::after{
+   content: '';
+   position: absolute;
+   left: 100px;
+   width: 300px;
+   height: 4px;
+   background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+   border-radius: 83px;
+   bottom: -25px;
+}
+.project p{ 
+   font-style: normal;
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 42px;
+   margin-bottom: 25px;
+   min-height: 166px;
+}
+.project_btn {
+   width: 200px;
+   height: 60px;
+   background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+   border-radius: 83px;
+   padding: 15px 52px;
+ }
+ .project_btn a{
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 30px;
+ }
+ .technologies {
+   margin-top: 145px;
+  }
+  .technologies_title{
+   font-weight: 600;
+   font-size: 64px;
+   line-height: 96px;
+   margin-left: 60px;
+   margin-bottom: 133px;
+  }
+ .technologies_body {
+   max-width: 1330px;
+   margin: 0 auto;
+   margin-bottom: 122px;
+  }
+ .technologies_item { 
+   margin-bottom: 54px;
+ }
+ .text { 
+   display: flex;
+   justify-content: space-between;
+ }
+ .skill { 
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 54px;
+ }
+ .level {
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 36px;
+   margin-bottom: 0;
+  }
+  .full_line { 
+   width: 1320px;
+   height: 32.3px;
+   background: #162950;
+   border-radius: 83px;
+ }
+ .progress_line { 
+   background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+   border-radius: 83px;
+   width: 990px;
+   height: 32px;
+ }
+ .advanced { 
+   width: 990px;
+   height: 32px;
+   }
+ .regular {
+   width: 660px;
+   height: 32px;
+  }
+  .beginner {
+   width: 330px;
+   height: 32px;
+   }
+  .technologies_img { 
+   background: url(./images/skilsskils.jpg);
+    height: 626px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 121px;
+  }
+  .skills_title{
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 72px;
+   margin-bottom: 82px;
+  }
+ .skills { 
+   display: flex;
+   justify-content: space-between;
+   max-width: 1330px;
+   margin: 0 auto;
+  }
+ .skills_item { 
+   font-style: normal;
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 54px;
+   margin-bottom: 32px;
+ }
+ .about_me { 
+   margin-top: 145px;}
+ .about_me_title {
+   font-weight: 600;
+   font-size: 64px;
+   line-height: 96px;
+   margin-bottom: 87px;
+   margin-left: 60px;
+  }
+ .about_me_body { 
+   display: flex;
+ }
+ .about_me_item { 
+   flex: 25%;
+   position: relative;
+ }
+ .year {
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 54px;
+   text-align: center;
+  }
+ .about_me_line {
+   position: absolute;
+   width: 100%;
+   height: 12px;
+   background: #FFFFFF;
+   top: 60px;
+   width: 0;
+   background: #8e61d5;
+   left: 200px;
+  }
+ /*.about_me_left {
+   position: absolute;
+   width: 50%;
+   height: 12px;
+   background: #FFFFFF;
+   top: 60px;
+   right: 0;
+  }*/
+ .about_me_dot { 
+   position: absolute;
+   width: 32px;
+   height: 32px;
+   border-radius: 50%;
+   background: #FFFFFF;
+   left: 50%;
+   top: 49px;
+ }
+ .about_me_text { 
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 42px;
+   text-align: center;
+   margin-top: 30px;
+ }
+ /*.about_me_right { 
+   position: absolute;
+   width: 50%;
+   height: 12px;
+   background: #FFFFFF;
+   top: 60px;
+  }*/
+   .about_me:hover .year_2020{
+   animation-name: ChangeColor;
+   animation-duration: 1s;
+   animation-fill-mode: forwards;
+  }
+  .about_me:hover .year_2021{
+   animation-name: ChangeColor;
+   animation-duration: 1s;
+   animation-delay: 1s;
+   animation-fill-mode: forwards;
+  }
+  .about_me:hover .year_2022{
+   animation-name: ChangeColor;
+   animation-duration: 1s;
+   animation-delay: 2s;
+   animation-fill-mode: forwards;
+    }
+ .about_me:hover .year_2023{
+   animation-name: ChangeColor;
+   animation-duration: 1s;
+   animation-delay: 3s;
+   animation-fill-mode: forwards;
+   }
+   @keyframes ChangeColor{
+      from{
+   color: #FFFFFF;
+      }
+      to{
+   color: #8e61d5;
+      }
+   }
+.about_me:hover .line_2020{
+   animation-name: ChangeLine;
+   animation-duration: 1s;
+   animation-fill-mode: forwards;
+}
+.about_me:hover .line_2021{
+   animation-name: ChangeLine;
+   animation-duration: 1s;
+   animation-delay: 1s;
+   animation-fill-mode: forwards;
+}
+.about_me:hover .line_2022{
+   animation-name: ChangeLine;
+   animation-duration: 1s;
+   animation-delay: 2s;
+   animation-fill-mode: forwards;
+}
+/*.about_me:hover .line_2023{
+   animation-name: ChangeLine;
+   animation-duration: 1s;
+   animation-delay: 3s;
+   animation-fill-mode: forwards;
+}*/
+@keyframes ChangeLine{
+   from{
+      width: 0;
+   }
+   to{
+     width: 100%;
+   }
+}
+
+.about_me:hover .dot_2020{
+   animation-name: ChangeDot;
+   animation-duration: 1s;
+   animation-fill-mode: forwards;
+}
+.about_me:hover .dot_2021{
+   animation-name: ChangeDot;
+   animation-duration: 1s;
+   animation-delay: 1s;
+   animation-fill-mode: forwards;
+}
+.about_me:hover .dot_2022{
+   animation-name: ChangeDot;
+   animation-duration: 1s;
+   animation-delay: 2s;
+   animation-fill-mode: forwards;
+}
+.about_me:hover .dot_2023{
+   animation-name: ChangeDot;
+   animation-duration: 1s;
+   animation-delay: 3s;
+   animation-fill-mode: forwards;
+}
+@keyframes ChangeDot{
+   from{
+background-color: #FFFFFF;
+   }
+   to{
+      background-color: #8e61d5;
+   }
+}
+
+.footer { 
+   margin-top: 145px;
+   margin-bottom: 45px;
+   }
+   .icons{
+      display: flex;
+   }
+   .footer_icons{
+      display: flex;
+      align-items: center;
+   }
+.footer_body { 
+   display: flex;
+   justify-content: space-between;
+   max-width: 1400px;
+   margin: 0 auto;
+}
+.footer_element a { 
+   font-weight: 600;
+   font-size: 42px;
+   line-height: 63px;
+   }
+.footer_element p { 
+   font-weight: 600;
+   font-size: 42px;
+   line-height: 63px;
+  }
+.footer_icons img { 
+   width: 72px;
+   height: 72px;
+   margin: 0 32px;
+}
